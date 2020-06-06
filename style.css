@@ -1,0 +1,35 @@
+body {
+    background: #4AC29A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BDFFF3, #4AC29A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #BDFFF3, #4AC29A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    text-align: center;
+}
+
+h1, h2 {
+        color: white;
+        font-size: 50px;
+}
+
+.mensagem {
+        border: #FFF;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px #000000;
+}
+
+.button {
+    background-color: #99f2c8;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px 40px;
+    color: black;
+    font-weight: bolder;
+    border-radius: 20px;
+}
+
+.button:hover{
+    background-color: gray;
+    transition: 1s;
+}
